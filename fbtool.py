@@ -2531,4 +2531,7 @@ def jay(fb_token, enable = True):
 		exit()
 
 if __name__=='__main__':
-        tool_main_function(#)
+
+
+
+ tool_main_function () 

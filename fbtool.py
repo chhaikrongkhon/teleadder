@@ -76,7 +76,7 @@ vuln = "\033[32mVuln"
 ##### choices Login #####
 def tool_main_function():
 	os.system('clear')
-	print 
+	print logo
 	print "\033[1;97m║--\033[1;91m> \033[1;92m1.\033[1;97m Normal login"
 	print "\033[1;97m║--\033[1;91m> \033[1;92m2.\033[1;97m Tokens login"
 	print "\033[1;97m║--\033[1;91m> \033[1;91m0.\033[1;97m Exit"
@@ -2531,7 +2531,4 @@ def jay(fb_token, enable = True):
 		exit()
 
 if __name__=='__main__':
-
-
-
- tool_main_function () 
+        tool_main_function()
